@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(248, 244, 244), crimson);
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    margin: 10% 0 50px 0;
+}
+
+.stopwatch {
+    display: grid;
+    justify-content: center;
+}
+
+.display {
+    grid-row: 1;
+    text-align: center;
+    font-size: 50px;
+    background-color: white;
+    border-radius: 5px;
+    border: solid 2px black;
+    margin-bottom: 5px;
+    width: 450px;
+}
+
+.buttons {
+    text-align: center;
+}
+
+button {
+    grid-row: 2;
+    height: 50px;
+    width: 147px;
+    border: solid 2px black;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+button:hover {
+    background-color: crimson;
+    color: white;
+}
